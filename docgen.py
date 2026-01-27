@@ -46,7 +46,6 @@ MARCADORES_CONDICIONALES = {
         "cumple": {"start": "{INICIO_HAB_CUMPLE}", "end": "{FIN_HAB_CUMPLE}"},
         "no cumple": {"start": "{INICIO_HAB_NO_CUMPLE}", "end": "{FIN_HAB_NO_CUMPLE}"},
         "parcial": {"start": "{INICIO_HAB_PARCIAL}", "end": "{FIN_HAB_PARCIAL}"
-}
     },
     "CNCA_STATUS": {
         "vigente": {"start": "{INICIO_CNCA_VIGENTE}", "end": "{FIN_CNCA_VIGENTE}"},
@@ -54,7 +53,6 @@ MARCADORES_CONDICIONALES = {
         "vencida": {"start": "{INICIO_CNCA_VENCIDA}", "end": "{FIN_CNCA_VENCIDA}"},
         "no solicitada": {"start": "{INICIO_CNCA_NO_SOLICITADA}", "end": "{FIN_CNCA_NO_SOLICITADA}"},
         "en curso": {"start": "{INICIO_CNCA_EN_CURSO}", "end": "{FIN_CNCA_EN_CURSO}"
-}
     },
     "CAAP_STATUS": {
         "No iniciado, tiene CNCA vigente": {"start": "{INICIO_CAAP_NO_INICIADO_CNCA_VIGENTE}", "end": "{FIN_CAAP_NO_INICIADO_CNCA_VIGENTE}"},
@@ -62,7 +60,7 @@ MARCADORES_CONDICIONALES = {
         "No iniciado, tiene CNCA vencida / No solicitada)": {"start": "{INICIO_CAAP_NO_INICIADO_CNCA_VENCIDA_NO_SOLICITADA}", "end": "{FIN_CAAP_NO_INICIADO_CNCA_VENCIDA_NO_SOLICITADA}"},
         "En curso": {"start": "{INICIO_CAAP_EN_CURSO}", "end": "{FIN_CAAP_EN_CURSO}"},
         "Vigente": {"start": "{INICIO_CAAP_VIGENTE}", "end": "{FIN_CAAP_VIGENTE}"},
-        "Vencido": {"start": "{INICIO_CAAP_VENCIDO}", "end": "{FIN_CAAP_VIGENTE}"}
+        "Vencido": {"start": "{INICIO_CAAP_VENCIDO}", "end": "{FIN_CAAP_VENCIDO}"
     },
     "CAAF_STATUS": {
         "en_curso": {"start": "{INICIO_CAAF_EN CURSO}", "end": "{FIN_CAAF_EN_CURSO}"},
@@ -70,86 +68,75 @@ MARCADORES_CONDICIONALES = {
         "no_iniciado_caap_en_curso": {"start": "{INICIO_CAAF_NO_INICIADO_CAAP_EN CURSO}", "end": "{FIN_CAAF_NO_INICIADO_CAAP_EN_CURSO}"},
         "no_iniciado_caap_vencido": {"start": "{INICIO_CAAF_NO_INICIADO_CAAP_VENCIDO}", "end": "{FIN_CAAF_NO_INICIADO_CAAP_VENCIDO}"},
         "vencido": {"start": "{INICIO_CAAF_VENCIDO}", "end": "{FIN_CAAF_VENCIDO}"},
-        "eliminar_todo": {"start": "{ELIMINAR_TODO_CAAF}", "end": "{FIN_ELIMINAR_TODO_CAAF}"}
+        "eliminar_todo": {"start": "{ELIMINAR_TODO_CAAF}", "end": "{FIN_ELIMINAR_TODO_CAAF}"
     },
     "RENOVACION_CAA_STATUS": {
-        "En curso": {"start": "{INICIO_RENOVACION_CAA_ENCURSO}", "end": "{FIN_RENOVACION_CAA_ENCURSO}"}
+        "En curso": {"start": "{INICIO_RENOVACION_CAA_ENCURSO}", "end": "{FIN_RENOVACION_CAA_ENCURSO}"
     },
     "LEGA_STATUS": {
         "vigente": {"start": "{INICIO_LEGA_VIGENTE}", "end": "{FIN_LEGA_VIGENTE}"},
         "en_curso": {"start": "{INICIO_LEGA_EN_CURSO}", "end": "{FIN_LEGA_EN_CURSO}"},
-        "vencida": {"start": "{INICIO_LEGA_VENCIDA}", "end": "{FIN_LEGA_VENCIDA}"}
+        "vencida": {"start": "{INICIO_LEGA_VENCIDA}", "end": "{FIN_LEGA_VENCIDA}"
     },
     "RESIDUOS_ESPECIALES_STATUS": {
         "Empresa exenta porque no genera": {"start": "{INICIO_EMPRESA_EXCENTA}", "end": "{FIN_EMPRESA_EXCENTA}"},
         "No inscripta": {"start": "{INICIO_RREE_NO_INSCRIPTA}", "end": "{FIN_RREE_NO_INSCRIPTA}"},
         "No Cumple con las DDJJ": {"start": "{INICIO_RREE_NOCUMPLE_DDJJ}", "end": "{FIN_RREE_NOCUMPLE_DDJJ}"},
-        "Cumple con las DDJJ": {"start": "{INICIO_RREE_CUMPLE_DDJJ}", "end": "{FIN_RREE_CUMPLE_DDJJ}"}
+        "Cumple con las DDJJ": {"start": "{INICIO_RREE_CUMPLE_DDJJ}", "end": "{FIN_RREE_CUMPLE_DDJJ}"
     },
     "CHE_STATUS": {
         "Obtuvo CHE": {"start": "{INICIO_RREE_OBTUVO_CHE}", "end": "{FIN_RREE_OBTUVO_CHE}"},
         "No obtuvo CHE": {"start": "{INICIO_RREE_NO_OBTUVO_NO_SOLICITO_CHE}", "end": "{FIN_RREE_NO_OBTUVO_NO_SOLICITO_CHE}"},
-        "CHE en curso": {"start": "{INICIO_RREE_CHE_EN_CURSO}", "end": "{FIN_RREE_CHE_EN_CURSO}"}
+        "CHE en curso": {"start": "{INICIO_RREE_CHE_EN_CURSO}", "end": "{FIN_RREE_CHE_EN_CURSO}"
     },
     "RESIDUOS_GESTION": {
-        "Correcta": {"start": "{INICIO_CORRECTA_GESTION_RESIDUOS}", "end": "{FIN_CORRECTA_GESTION_RESIDUOS}"},
-        "Mala": {"start": "{INICIO_MAL_GESTION_RESIDUOS}", "end": "{FIN_MAL_GESTION_RESIDUOS}"}
+        "Correcta": {"start": "{INICIO_CORRECTA_GESTION_RESIDUOS}", "end": "{FIN_CORRECTA_GESTION_RESIDUOS}"
     },
     "ASP_STATUS": {
-        "Finalizada": {"start": "{INICIO_PRESENTACION_ASP_FINALIZADA}", "end": "{FIN_PRESENTACION_ASP_FINALIZADA}"},
-        "Caratulada": {"start": "{INICIO_PRESENTACION_ASP_CARATULADA}", "end": "{FIN_PRESENTACION_ASP_CARATULADA}"},
-        "No Presentado": {"start": "{INICIO_ASP_NO_PRESENTADO}", "end": "{FIN_ASP_NO_PRESENTADO}"}
+        "Finalizada": {"start": "{INICIO_PRESENTACION_ASP_FINALIZADA}", "end": "{FIN_PRESENTACION_ASP_FINALIZADA}"
     },
     "VALVULAS_CALIBRACION_STATUS": {
-        "Cumple": {"start": "{INICIO_CALIBRACION_ASP_CUMPLE}", "end": "{FIN_CALIBRACION_ASP_CUMPLE}"},
-        "No Cumple": {"start": "{INICIO_CALIBRACION_ASP_NOCUMPLE}", "end": "{FIN_CALIBRACION_ASP_NOCUMPLE}"}
+        "Cumple": {"start": "{INICIO_CALIBRACION_ASP_CUMPLE}", "end": "{FIN_CALIBRACION_ASP_CUMPLE}"
     },
     "ADA_STATUS": {
-         "Prefactibilidad con Chi 0 para todos los permisos": {"start": "{PREFA_TODOS_CHI0}", "end": "{FIN_PREFA_TODOS_CHI0}"},
-         "Prefactibilidad vigente": {"start": "{PREFA_OBTENIDA}", "end": "{FIN_PREFA_OBTENIDA}"},
-         "Prefactibilidad vencida": {"start": "{PREFA_VENCIDA}", "end": "{FIN_PREFA_VENCIDA}"},
+         "Prefactibilidad con Chi 0 para todos los permisos": {"start": "{PREFA_TODOS_CHI0}", "end": "{FIN_PREFA_TODOS_CHI0}"
+         "Prefactibilidad vigente": {"start": "{PREFA_OBTENIDA}", "end": "{FIN_PREFA_OBTENIDA}"
+         "Prefactibilidad vencida": {"start": "{PREFA_VENCIDA}", "end": "{FIN_PREFA_VENCIDA}"
          "No solicitada": {"start": "{PREFA_NO_SOLICITADA}", "end": "{FIN_PREFA_NO_SOLICITADA}"
-}
     },
     "RENPRE_STATUS": {
-        "No aplica": {"start": "{INICIO_NO_APLICA}", "end": "{FIN_NO_APLICA}"},
-        "Esta inscripto y renueva": {"start": "{INICIO_APLICA_INSCRIPTO_RENUEVA}", "end": "{FIN_APLICA_INSCRIPTO_RENUEVA}"},
-        "Esta inscripto y no renovó": {"start": "{INICIO_APLICA_INSCRIPTO_NO_RENOVO}", "end": "{FIN_APLICA_NO_RENOVO}"},
+        "No aplica": {"start": "{INICIO_NO_APLICA}", "end": "{FIN_NO_APLICA}"
+        "Esta inscripto y renueva": {"start": "{INICIO_APLICA_INSCRIPTO_RENUEVA}", "end": "{FIN_APLICA_INSCRIPTO_RENUEVA}"
+        "Esta inscripto y no renovó": {"start": "{INICIO_APLICA_INSCRIPTO_NO_RENOVO}", "end": "{FIN_APLICA_NO_RENOVO}"
         "Aplica pero no esta inscripto": {"start": "{INICIO_APLICA_NO_INSCRIPTO}", "end": "{FIN_APLICA_NO_INSCRIPTO}"
-}
     },
     "SEGURO_STATUS": {
-        "Vigente": {"start": "{INICIO_POLIZA_VIGENTE}", "end": "{FIN_POLIZA_VIGENTE}"},
-        "Vencida": {"start": "{INICIO_POLIZA_VENCIDA}", "end": "{FIN_POLIZA_VENCIDA}"},
+        "Vigente": {"start": "{INICIO_POLIZA_VIGENTE}", "end": "{FIN_POLIZA_VIGENTE}"
+        "Vencida": {"start": "{INICIO_POLIZA_VENCIDA}", "end": "{FIN_POLIZA_VENCIDA}"
         "Nunca Tuvo": {"start": "{INICIO_NUNCA_TUVO_POLIZA}", "end": "{FIN_NUNCA_TUVO_POLIZA}"
-}
     },
     "ACUMAR_STATUS": {
-        "Vigente": {"start": "{INICIO_ACUMAR_VIGENTE}", "end": "{FIN_ACUMAR_VIGENTE}"},
-        "En curso": {"start": "{INICIO_ACUMAR_EN_CURSO}", "end": "{FIN_ACUMAR_EN_CURSO}"},
-        "Vencida": {"start": "{INICIO_ACUMAR_VENCIDA}", "end": "{FIN_ACUMAR_VENCIDA}"},
-        "No solicitada": {"start": "{INICIO_ACUMAR_NO_SOLICITADA}", "end": "{FIN_ACUMAR_NO_SOLICITADA}"},
+        "Vigente": {"start": "{INICIO_ACUMAR_VIGENTE}", "end": "{FIN_ACUMAR_VIGENTE}"
+        "En curso": {"start": "{INICIO_ACUMAR_EN_CURSO}", "end": "{FIN_ACUMAR_EN_CURSO}"
+        "Vencida": {"start": "{INICIO_ACUMAR_VENCIDA}", "end": "{FIN_ACUMAR_VENCIDA}"
+        "No solicitada": {"start": "{INICIO_ACUMAR_NO_SOLICITADA}", "end": "{FIN_ACUMAR_NO_SOLICITADA}"
         "No aplica": {"start": "{INICIO_ACUMAR_NO_APLICA}", "end": "{FIN_ACUMAR_NO_APLICA}"
-}
     },
     "INSCRIPCION_1102": {
-        "Inscripto": {"start": "{INICIO_INSCRIPTA_1102}", "end": "{FIN_INSCRIPTA_1102}"},
-        "No inscripto": {"start": "{INICIO_NOINSCRIPTA_1102}", "end": "{FIN_NOINSCRIPTA_1102}"},
+        "Inscripto": {"start": "{INICIO_INSCRIPTA_1102}", "end": "{FIN_INSCRIPTA_1102}"
+        "No inscripto": {"start": "{INICIO_NOINSCRIPTA_1102}", "end": "{FIN_NOINSCRIPTA_1102}"
         "No aplica": {"start": "{INICIO_NOAPLICA_1102}", "end": "{FIN_NOAPLICA_1102}"
-}
     },
     "AUDITORIA_404": {
-        "Realizo": {"start": "{INICIO_REALIZO_AUDITORIA}", "end": "{FIN_REALIZO_AUDITORIA}"},
-        "No realizo": {"start": "{INICIO_NO_REALIZO_AUDITORIA}", "end": "{FIN_NO_REALIZO_AUDITORIA}"},
-        "No aplica": {"start": "{INICIO_NOAPLICA_AUDITORIA}", "end": "{FIN_NOAPICA_AUDITORIA}"},
-        "No inscripto, no realiza": {"start": "{INICIO_NO_INSCRIPTA_NO_AUDITORIA}", "end": "{FIN_NO_INSCRIPTA_NO_AUDITORIA}"}
-}
+        "Realizo": {"start": "{INICIO_REALIZO_AUDITORIA}", "end": "{FIN_REALIZO_AUDITORIA}"
+        "No realizo": {"start": "{INICIO_NO_REALIZO_AUDITORIA}", "end": "{FIN_NO_REALIZO_AUDITORIA}"
+        "No aplica": {"start": "{INICIO_NOAPLICA_AUDITORIA}", "end": "{FIN_NOAPICA_AUDITORIA}"
+        "No inscripto, no realiza": {"start": "{INICIO_NO_INSCRIPTA_NO_AUDITORIA}", "end": "{FIN_NO_INSCRIPTA_NO_AUDITORIA}"
     },
     "INSCRIPCION_277": {
-        "Inscripto": {"start": "{INICIO_INSCRIPTA_277}", "end": "{FIN_INSCRIPTA_277}"},
-        "No inscripto": {"start": "{INICIO_NOINSCRIPTA_277}", "end": "{FIN_NOINSCRIPTA_277}"},
+        "Inscripto": {"start": "{INICIO_INSCRIPTA_277}", "end": "{FIN_INSCRIPTA_277}"
+        "No inscripto": {"start": "{INICIO_NOINSCRIPTA_277}", "end": "{FIN_NOINSCRIPTA_277}"
         "No aplica": {"start": "{INICIO_NOAPLICA_277}", "end": "{FIN_NOAPLICA_277}"
-}
     }
 }
 
@@ -160,6 +147,7 @@ def remove_paragraph(paragraph):
     """Elimina un párrafo del documento (python-docx)"""
     element = paragraph._element
     element.getparent().remove(element)
+
 
 def find_paragraphs_to_remove(doc, selected_state, situation_type):
     """
@@ -201,6 +189,7 @@ def find_paragraphs_to_remove(doc, selected_state, situation_type):
 
     return paragraphs_to_remove
 
+
 def find_and_remove(doc, key, section):
     """Helper: llama a find_paragraphs_to_remove y borra los párrafos encontrados"""
     try:
@@ -209,6 +198,7 @@ def find_and_remove(doc, key, section):
     except Exception:
         # Si no hay configuración para esa sección, continuar
         pass
+
 
 def reemplazar_marcadores(doc, user_data):
     """
@@ -259,6 +249,7 @@ def reemplazar_marcadores(doc, user_data):
             for cell in row.cells:
                 process_container_paragraphs(cell.paragraphs)
 
+
 def generar_tabla_desde_interfaz_dinamica(doc, lista_filas):
     """
     Inserta una tabla bajo el párrafo que contiene "Plan de monitoreos".
@@ -304,9 +295,11 @@ def generar_tabla_desde_interfaz_dinamica(doc, lista_filas):
             break
     # si no encontrado, no hacer nada (el caller decide qué informar)
 
+
 def insertar_tabla_manual_dinamica(doc, lista_de_filas_widgets):
     # Alias / compatibilidad (igual que generar_tabla_desde_interfaz_dinamica)
     generar_tabla_desde_interfaz_dinamica(doc, lista_de_filas_widgets)
+
 
 def agregar_hallazgo_formateado_al_doc(doc, index, observacion, situacion, autoridad, riesgo, recomendacion):
     if not (str(observacion).strip() or str(situacion).strip()):
@@ -334,6 +327,7 @@ def agregar_hallazgo_formateado_al_doc(doc, index, observacion, situacion, autor
 # ---------------------------
 # FUNCION PÚBLICA
 # ---------------------------
+
 def generate_report(template_bytes, user_data, hallazgos, muestreo_rows):
     """
     Genera el informe y devuelve un tuple (out_bytes, filename)
