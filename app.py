@@ -285,12 +285,6 @@ MARCADORES_CONDICIONALES = {
         "Cumple": {"start": "{INICIO_CALIBRACION_ASP_CUMPLE}", "end": "{FIN_CALIBRACION_ASP_CUMPLE}"},
         "No Cumple": {"start": "{INICIO_CALIBRACION_ASP_NOCUMPLE}", "end": "{FIN_CALIBRACION_ASP_NOCUMPLE}"}
     },
-    "ADA_STATUS": {
-         "Prefactibilidad con Chi 0 para todos los permisos": {"start": "{PREFA_TODOS_CHI0}", "end": "{FIN_PREFA_TODOS_CHI0}"},
-         "Prefactibilidad vigente": {"start": "{PREFA_OBTENIDA}", "end": "{FIN_PREFA_OBTENIDA}"},
-         "Prefactibilidad vencida": {"start": "{PREFA_VENCIDA}", "end": "{FIN_PREFA_VENCIDA}"},
-         "No solicitada": {"start": "{PREFA_NO_SOLICITADA}", "end": "{FIN_PREFA_NO_SOLICITADA}"}
-    },
     "RENPRE_STATUS": {
         "No aplica": {"start": "{INICIO_NO_APLICA}", "end": "{FIN_NO_APLICA}"},
         "Esta inscripto y renueva": {"start": "{INICIO_APLICA_INSCRIPTO_RENUEVA}", "end": "{FIN_APLICA_INSCRIPTO_RENUEVA}"},
@@ -326,6 +320,37 @@ MARCADORES_CONDICIONALES = {
         "No aplica": {"start": "{INICIO_NOAPLICA_277}", "end": "{FIN_NOAPLICA_277}"}
 
     }
+ "PREFACTIBILIDAD_STATUS": {
+        "Prefactibilidad con todos CHI 0": {"start": "{INICIO_PREFA_TODOS_CHI0}", "end": "{FIN_PREFA_TODOS_CHI0}"},
+        "Prefactibilidad obtenida": {"start": "{INICIO_PREFA_OBTENIDA}", "end": "{FIN_PREFA_OBTENIDA}"},
+        "Prefactibilidad no solicitada": {"start": "{INICIO_PREFA_NO_SOLICITADA}", "end": "{FIN_PREFA_NO_SOLICITADA}"}
+        "Prefactibilidad vencida": {"start": "{INICIO_PREFA_VENCIDA}}", "end": "{FIN_PREFA_VENCIDA}"}
+
+    }
+ "HIDRAULICA_STATUS": {
+        "Tramite no iniciado porque tiene CHI 0": {"start": "{INICIO_CONSTANCIA_HIDRÁULICA_NO_INICIADA_POR_CHI0}", "end": "{FIN_CONSTANCIA_HIDRÁULICA_NO_INICIADA_POR_CHI0}"},
+        "No iniciada, tiene Prefactibilida vigente": {"start": "{INICIO_CONSTANCIA_HIDRÁULICA_NO_INICIADA_PREFA_VIGENTE}", "end": "{FIN_CONSTANCIA_HIDRÁULICA_NO_INICIADA_PREFA_VIGENTE}"},
+        "No iniciada, Prefactibilidad en curso": {"start": "{{INICIO_CONSTANCIA_HIDRÁULICA_NO_INICIADA_PREFA_EN_CURSO}", "end": "{FIN_CONSTANCIA_HIDRÁULICA_NO_INICIADA_PREFA_EN_CURSO}"}
+        "No iniciada, Prefactibilidad vencida o no iniciada": {"start": "{INICIO_CONSTANCIA_HIDRÁULICA_NO_INICIADA_PREFA_VENCIDA_NO_INICIADA}}", "end": "{FIN_CONSTANCIA_HIDRÁULICA_NO_INICIADA_PREFA_VENCIDA_NO_INICIADA}"}
+        "En curso": {"start": "{INICIO_CONSTANCIA_HIDRÁULICA_EN_CURSO}}", "end": "{FIN_CONSTANCIA_HIDRÁULICA_EN_CURSO}"}
+        "Vigente": {"start": "{INICIO_CONSTANCIA_HIDRÁULICA_VIGENTE}}", "end": "{FIN_CONSTANCIA_HIDRÁULICA_VIGENTE}"}
+}
+"VUELCO_STATUS": {
+        "Tramite no iniciado porque tiene CHI 0": {"start": "{INICIO_CONSTANCIA_VUELCO_NO_INICIADA_POR_CHI0}", "end": "{FIN_CONSTANCIA_VUELCO_NO_INICIADA_POR_CHI0}"},
+        "No iniciada, tiene Prefactibilida vigente": {"start": "{INICIO_CONSTANCIA_VUELCO_NO_INICIADA_PREFA_VIGENTE}", "end": "{FIN_CONSTANCIA_VUELCO_NO_INICIADA_PREFA_VIGENTE}"},
+        "No iniciada, Prefactibilidad en curso": {"start": "{{INICIO_CONSTANCIA_VUELCO_NO_INICIADA_PREFA_EN_CURSO}", "end": "{FIN_CONSTANCIA_VUELCO_NO_INICIADA_PREFA_EN_CURSO}"}
+        "No iniciada, Prefactibilidad vencida o no iniciada": {"start": "{INICIO_CONSTANCIA_VUELCO_NO_INICIADA_PREFA_VENCIDA_NO_INICIADA}}", "end": "{FIN_CONSTANCIA_VUELCO_NO_INICIADA_PREFA_VENCIDA_NO_INICIADA}"}
+        "En curso": {"start": "{INICIO_CONSTANCIA_VUELCO_EN_CURSO}}", "end": "{FIN_CONSTANCIA_VUELCO_EN_CURSO}"}
+        "Vigente": {"start": "{INICIO_CONSTANCIA_VUELCO_VIGENTE}}", "end": "{FIN_CONSTANCIA_VUELCO_VIGENTE}"}
+}
+"EXPLOTACION_STATUS": {
+        "Tramite no iniciado porque tiene CHI 0": {"start": "{INICIO_CONSTANCIA_EXPLOTACION_NO_INICIADA_POR_CHI0}", "end": "{FIN_CONSTANCIA_EXPLOTACION_NO_INICIADA_POR_CHI0}"},
+        "No iniciada, tiene Prefactibilida vigente": {"start": "{INICIO_CONSTANCIA_EXPLOTACION_NO_INICIADA_PREFA_VIGENTE}", "end": "{FIN_CONSTANCIA_EXPLOTACION_NO_INICIADA_PREFA_VIGENTE}"},
+        "No iniciada, Prefactibilidad en curso": {"start": "{{INICIO_CONSTANCIA_EXPLOTACION_NO_INICIADA_PREFA_EN_CURSO}", "end": "{FIN_CONSTANCIA_EXPLOTACION_NO_INICIADA_PREFA_EN_CURSO}"}
+        "No iniciada, Prefactibilidad vencida o no iniciada": {"start": "{INICIO_CONSTANCIA_EXPLOTACION_NO_INICIADA_PREFA_VENCIDA_NO_INICIADA}}", "end": "{FIN_CONSTANCIA_EXPLOTACION_NO_INICIADA_PREFA_VENCIDA_NO_INICIADA}"}
+        "En curso": {"start": "{INICIO_CONSTANCIA_EXPLOTACION_EN_CURSO}}", "end": "{FIN_CONSTANCIA_EXPLOTACION_EN_CURSO}"}
+        "Vigente": {"start": "{INICIO_CONSTANCIA_EXPLOTACION_VIGENTE}}", "end": "{FIN_CONSTANCIA_EXPLOTACION_VIGENTE}"}
+}
 }
 
 # ==========================================
